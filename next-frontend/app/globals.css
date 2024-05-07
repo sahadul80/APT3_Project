@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.smaller-placeholder::placeholder {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+body {
+    background-image: url("G:\Semester8\APWT\Project\next-frontend\background\eebg.jpg");
+    background-size: cover; /* Optional: Adjust background image size */
+}
+
+.btn-size {
+    width: 200px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+}
+
+.center-position {
+    left: 40%;
+}
